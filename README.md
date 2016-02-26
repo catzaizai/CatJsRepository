@@ -19,9 +19,9 @@
 </h4>
 
 <code>
-  $(".score").score({ </ br>
-     score: 4, // init score </ br>
-      callback: function(score){ console.log(score) } // callback </ br>
+  $(".score").score({ <br />
+     score: 4, // init score <br />
+      callback: function(score){ console.log(score) } // callback <br />
     });
 </code>
 
