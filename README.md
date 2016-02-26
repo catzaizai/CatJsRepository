@@ -15,9 +15,9 @@
 
 #### other
 ``` javascript
-  $(".score").score({ <br />
-       score: 4, // init score <br />
-       callback: function(score){ console.log(score) } // callback <br />
+  $(".score").score({ 
+       score: 4, // init score 
+       callback: function(score){ console.log(score) } // callback 
   });
 ```
 
