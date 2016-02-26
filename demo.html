@@ -14,7 +14,7 @@
     </div>
     <script type="text/javascript">
         $(function () {
-            $(".score").score(function () { /* callback */ });
+            $(".score").score(function (score) { console.log(score) });
         })
     </script>
 </body>

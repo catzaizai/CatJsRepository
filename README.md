@@ -20,8 +20,8 @@
 
 <code>
   $(".score").score({
-      score: 4, // init score
-      callback: function(){  } //callback
+      score: 4, /* init score */
+      callback: function(score){ console.log(score) } /* callback */
     });
 </code>
 

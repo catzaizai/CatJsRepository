@@ -1,7 +1,7 @@
 ﻿/*！
  * Score Component for jQuery 1.8+
  * Depend font-awesome.css
- * Copyright 2015 shiwang sha
+ * Copyright 2015 Catzaizai
  *
 */
 
@@ -50,7 +50,7 @@
             var index = parseInt($(event.target).attr("data-index"));
             this.setChooseHeart(index);
             this.score = index + 1;
-            this.callback();
+            this.callback(this.score);
         },
 
         setChooseHeart: function (index) {
@@ -94,13 +94,13 @@
 
             $this.data("score", (data = new Score(this, $.extend({}, $.fn.score.defaults, option))));
         })
-    }
+    };
 
     $.fn.score.defaults = {
         score: 4,
         msg: ["很差劲", "一般般", "还不错", "满意", "非常满意"],
-        callback: function () {
-
+        callback: function (score) {
+            console.log(score);
         }
     };
 
