@@ -21,4 +21,4 @@
   });
 ```
 
-<img src="Score/demo.png">
+<img src="demo.png">
