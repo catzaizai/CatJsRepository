@@ -26,4 +26,4 @@
 
 Demo 链接 [score][1]
 
-[1]: http://catzaizai.github.io/jQuery-Widget/
+[1]: http://catzaizai.github.io/jQuery-Widget-Score/
